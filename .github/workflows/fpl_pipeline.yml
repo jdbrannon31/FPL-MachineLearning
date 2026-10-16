@@ -1,10 +1,7 @@
 name: FPL AI Automated Pipeline
 
 on:
-  # Allows you to click a button to run it manually on GitHub
   workflow_dispatch: 
-  
-  # Runs automatically at 2:00 AM UTC every Friday
   schedule:
     - cron: '0 2 * * 5'
 
@@ -30,16 +27,16 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Data Ingestion
-        run: python ingestion.py
+        run: cd fpl_ai_backend && python ingestion.py
 
       - name: Train AI Model
-        run: python model.py
+        run: cd fpl_ai_backend && python model.py
 
       - name: Generate Predictions
-        run: python predict.py
+        run: cd fpl_ai_backend && python predict.py
 
       - name: Commit Updated Data & Model
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated Data & Model Update"
-          file_pattern: "*.csv *.pkl"
+          file_pattern: "fpl_ai_backend/*.csv fpl_ai_backend/*.pkl"
