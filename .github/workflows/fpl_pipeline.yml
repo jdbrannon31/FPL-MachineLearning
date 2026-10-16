@@ -33,6 +33,8 @@ jobs:
         run: cd fpl_ai_backend && python model.py
 
       - name: Generate Predictions
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: cd fpl_ai_backend && python predict.py
 
       - name: Commit Updated Data & Model
