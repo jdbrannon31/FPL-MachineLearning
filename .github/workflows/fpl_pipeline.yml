@@ -13,8 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Upgraded checkout action to v4 to clear the Node 20 deprecation warning
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -37,8 +38,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: cd fpl_ai_backend && python predict.py
 
+      # Added fpl_predictions.csv to the file_pattern array
       - name: Commit Updated Data & Model
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated Data & Model Update"
-          file_pattern: "fpl_ai_backend/*.csv fpl_ai_backend/*.pkl"
+          file_pattern: "fpl_ai_backend/*.csv fpl_ai_backend/*.pkl fpl_ai_backend/fpl_predictions.csv"

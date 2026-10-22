@@ -44,7 +44,9 @@ def generate_predictions():
     
     # Calculate ROI
     future_df['value_per_million'] = future_df['projected_points'] / future_df['price']
-    
+
+    # Save all predictions to a CSV for weekend evaluation
+    future_df.to_csv('fpl_predictions.csv', index=False)
     print("\n--- TOP BUDGET TARGETS (Under £7.5m) ---")
     affordable = future_df[future_df['price'] <= 7.5]
     top_targets = affordable.sort_values(by='value_per_million', ascending=False)
