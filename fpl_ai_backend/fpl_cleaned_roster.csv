@@ -175,7 +175,7 @@ id,web_name,team,element_type,now_cost,team_name,price
 150,M.Sarr,6,2,45,Chelsea,4.5
 151,Acheampong,6,2,45,Chelsea,4.5
 152,Palestra,6,2,53,Chelsea,5.3
-154,Palmer,6,3,97,Chelsea,9.7
+154,Palmer,6,3,98,Chelsea,9.8
 156,Neto,6,3,65,Chelsea,6.5
 157,Estêvão,6,3,63,Chelsea,6.3
 158,Gittens,6,3,58,Chelsea,5.8
@@ -410,7 +410,7 @@ id,web_name,team,element_type,now_cost,team_name,price
 335,Stach,13,3,60,Leeds,6.0
 336,Okafor,13,3,58,Leeds,5.8
 337,Aaronson,13,3,53,Leeds,5.3
-338,Ampadu,13,3,54,Leeds,5.4
+338,Ampadu,13,3,53,Leeds,5.3
 339,Longstaff,13,3,48,Leeds,4.8
 341,Gnonto,13,3,50,Leeds,5.0
 342,Harrison,13,3,50,Leeds,5.0
@@ -508,7 +508,7 @@ id,web_name,team,element_type,now_cost,team_name,price
 415,Dorgu,16,3,57,Man Utd,5.7
 416,De Ligt,16,2,49,Man Utd,4.9
 417,Dalot,16,2,48,Man Utd,4.8
-418,Maguire,16,2,48,Man Utd,4.8
+418,Maguire,16,2,47,Man Utd,4.7
 419,Martinez,16,2,49,Man Utd,4.9
 420,Yoro,16,2,48,Man Utd,4.8
 421,Heaven,16,2,43,Man Utd,4.3
@@ -517,7 +517,7 @@ id,web_name,team,element_type,now_cost,team_name,price
 424,Amass,16,2,40,Man Utd,4.0
 425,Fredricson,16,2,40,Man Utd,4.0
 426,B.Fernandes,16,3,118,Man Utd,11.8
-427,Mbeumo,16,3,78,Man Utd,7.8
+427,Mbeumo,16,3,79,Man Utd,7.9
 428,Cunha,16,3,79,Man Utd,7.9
 429,Rashford,16,3,69,Man Utd,6.9
 430,Mount,16,3,54,Man Utd,5.4
