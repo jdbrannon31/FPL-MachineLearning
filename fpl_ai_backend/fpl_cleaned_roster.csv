@@ -40,7 +40,7 @@ id,web_name,team,element_type,now_cost,team_name,price
 39,Nedeljkovic,2,2,40,Aston Villa,4.0
 41,Buendía,2,3,59,Aston Villa,5.9
 44,Bailey,2,3,54,Aston Villa,5.4
-45,McGinn,2,3,54,Aston Villa,5.4
+45,McGinn,2,3,55,Aston Villa,5.5
 46,Barkley,2,3,50,Aston Villa,5.0
 47,Kamara,2,3,50,Aston Villa,5.0
 48,Onana,2,3,49,Aston Villa,4.9
@@ -53,10 +53,10 @@ id,web_name,team,element_type,now_cost,team_name,price
 55,Watkins,2,4,78,Aston Villa,7.8
 56,Abraham,2,4,55,Aston Villa,5.5
 160,Garnacho,2,3,57,Aston Villa,5.7
-166,N.Jackson,2,4,71,Aston Villa,7.1
+166,N.Jackson,2,4,72,Aston Villa,7.2
 582,Madjo,2,4,53,Aston Villa,5.3
 596,Ruggeri,2,2,44,Aston Villa,4.4
-597,Suzuki,2,1,50,Aston Villa,5.0
+597,Suzuki,2,1,51,Aston Villa,5.1
 606,Rowe,2,2,40,Aston Villa,4.0
 607,Lynch,2,3,45,Aston Villa,4.5
 611,Wan-Bissaka,2,2,45,Aston Villa,4.5
@@ -137,9 +137,9 @@ id,web_name,team,element_type,now_cost,team_name,price
 122,Minteh,5,3,58,Brighton,5.8
 123,Hinshelwood,5,3,59,Brighton,5.9
 124,Groß,5,3,63,Brighton,6.3
-125,Georginio,5,4,53,Brighton,5.3
+125,Georginio,5,4,52,Brighton,5.2
 126,O'Riley,5,3,54,Brighton,5.4
-127,Gomez,5,3,50,Brighton,5.0
+127,Gomez,5,3,51,Brighton,5.1
 128,Buonanotte,5,3,50,Brighton,5.0
 129,Ayari,5,3,55,Brighton,5.5
 130,Wieffer,5,2,48,Brighton,4.8
@@ -239,7 +239,7 @@ id,web_name,team,element_type,now_cost,team_name,price
 199,Benitez,8,1,45,Crystal Palace,4.5
 202,Richards,8,2,49,Crystal Palace,4.9
 203,Canvot,8,2,48,Crystal Palace,4.8
-204,Mitchell,8,2,45,Crystal Palace,4.5
+204,Mitchell,8,2,44,Crystal Palace,4.4
 205,Sosa,8,2,45,Crystal Palace,4.5
 206,Chadi Riad,8,2,43,Crystal Palace,4.3
 207,Mingueza,8,2,42,Crystal Palace,4.2
@@ -314,8 +314,8 @@ id,web_name,team,element_type,now_cost,team_name,price
 270,Reed,10,3,43,Fulham,4.3
 271,Muniz,10,4,53,Fulham,5.3
 272,Kusi-Asare,10,4,43,Fulham,4.3
-569,Gonzalo,10,4,59,Fulham,5.9
-570,Palacios,10,3,53,Fulham,5.3
+569,Gonzalo,10,4,58,Fulham,5.8
+570,Palacios,10,3,52,Fulham,5.2
 580,Charles,10,3,50,Fulham,5.0
 610,De Fougerolles,10,2,40,Fulham,4.0
 626,Zepa,10,3,44,Fulham,4.4
@@ -388,7 +388,7 @@ id,web_name,team,element_type,now_cost,team_name,price
 318,Philogene,12,3,54,Ipswich Town,5.4
 319,Szmodics,12,3,50,Ipswich Town,5.0
 320,Akpom,12,4,50,Ipswich Town,5.0
-321,Walle Egeli,12,4,45,Ipswich Town,4.5
+321,Walle Egeli,12,4,44,Ipswich Town,4.4
 322,Al-Hamadi,12,4,50,Ipswich Town,5.0
 323,McAteer,12,3,43,Ipswich Town,4.3
 324,Mehmeti,12,3,47,Ipswich Town,4.7
@@ -460,7 +460,7 @@ id,web_name,team,element_type,now_cost,team_name,price
 375,Nyoni,14,3,48,Liverpool,4.8
 376,Bajcetic,14,3,50,Liverpool,5.0
 377,Munoz,14,3,65,Liverpool,6.5
-378,McConnell,14,3,44,Liverpool,4.4
+378,McConnell,14,3,43,Liverpool,4.3
 379,Isak,14,4,93,Liverpool,9.3
 380,Ekitiké,14,4,74,Liverpool,7.4
 381,Koumas,14,3,50,Liverpool,5.0
